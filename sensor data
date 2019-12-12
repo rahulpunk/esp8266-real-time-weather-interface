@@ -10,8 +10,8 @@ Adafruit_BME280 bme;
 float temperature, humidity, pressure, altitude;
 
 /*Put your SSID & Password*/
-const char* ssid     = "Champion";
-const char* password = "champion@123";
+const char* ssid     = "your wifi user name";
+const char* password = "password";
 
 ESP8266WebServer server(80);              
  
